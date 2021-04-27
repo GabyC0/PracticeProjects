@@ -10,13 +10,13 @@ function convert() {
   document.querySelector('#walkAndTalk').innerText = convertedValue
 
 if (convertedValue >= 29){
-  document.querySelector('body').style.backgroundImage = "url('https://media.giphy.com/media/e5kbmb3wX3J1S/giphy.gif')"
+  document.querySelector('html').style.backgroundImage = "url('https://media.giphy.com/media/e5kbmb3wX3J1S/giphy.gif')"
 }else if (
 convertedValue < 29 && convertedValue >18){
 
-document.querySelector('body').style.backgroundImage = "url('https://media.giphy.com/media/xT8qBqfCcrD50Ffq7e/giphy.gif')"
+document.querySelector('html').style.backgroundImage = "url('https://media.giphy.com/media/xT8qBqfCcrD50Ffq7e/giphy.gif')"
 }else {
-  document.querySelector('body').style.backgroundImage = "url('https://media.giphy.com/media/KFUx0Rtz7p0HTzbJ7x/giphy.gif')"
+  document.querySelector('html').style.backgroundImage = "url('https://media.giphy.com/media/KFUx0Rtz7p0HTzbJ7x/giphy.gif')"
 }
 
 }

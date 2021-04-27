@@ -53,14 +53,13 @@ button {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  height: 2rem;
-  width: 10rem;
+  border-radius: 8px;
 }
 
 input{
   border-radius: 8px;
-  height: 2rem;
-  width: 10rem;
+  height: 2.5rem;
+  width: 12rem;
   background-color:rgb(255, 255, 255), rgb(59, 59, 59);
   overflow: visible;
 }

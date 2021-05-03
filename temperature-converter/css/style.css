@@ -16,12 +16,12 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-color: teal;
 }
 
 body {
   text-align: center;
   background-size: cover;
-  background-color: teal;
 /*   background: url(images/temp.png);
   background-repeat: none; */
 }

@@ -3,12 +3,14 @@ document.querySelector('#inputButton').addEventListener('click', convert);
 function convert() {
   //get value from an input
   const inputValue = document.querySelector('#input').value;
+  const radioSelection = document.querySelector('#').value;
   //the math here
   const convertToCelsius = (inputValue - 32) * 5/9;
   const convertToFahrenheit = (inputValue * 1.8) + 32;
 //display the value
   //console.log(convertedValue)
     document.querySelector('#header').innerText = convertToCelsius;
+    document.querySelector('#header').innerText = convertToFahrenheit;
 
 if (convertToCelsius >= 29){
   document.querySelector('html').style.backgroundImage = "url('https://media.giphy.com/media/e5kbmb3wX3J1S/giphy.gif')";

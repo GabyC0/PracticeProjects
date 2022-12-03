@@ -1,3 +1,11 @@
+function showInput(){
+  let checkedCelsius = document.getElementByName("celcius");
+  let showInput = document.getElementById('#input');
+  showInput.style.display = checkedCelsius.checked ? "block" : "none";
+}
+
+
+
 //click event
 document.querySelector('#inputButton').addEventListener('click', convert);
 function convert() {

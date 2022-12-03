@@ -8,7 +8,7 @@ function convert() {
   const convertToFahrenheit = (inputValue * 1.8) + 32;
 //display the value
   //console.log(convertedValue)
-    document.querySelector('#header').innerText = cconvertToCelsius;
+    document.querySelector('#header').innerText = convertToCelsius;
 
 if (convertToCelsius >= 29){
   document.querySelector('html').style.backgroundImage = "url('https://media.giphy.com/media/e5kbmb3wX3J1S/giphy.gif')";

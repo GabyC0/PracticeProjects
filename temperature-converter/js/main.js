@@ -1,13 +1,13 @@
 //click event
-document.querySelector('#unicorn').addEventListener('click', convert)
+document.querySelector('#inputButton').addEventListener('click', convert)
 function convert() {
   //get value from an input
-  const cel = document.querySelector('#zebra').value
+  const cel = document.querySelector('#input').value
   //the math here
   const convertedValue = (cel - 32) * 5/9
 //display the value
   //console.log(convertedValue)
-  document.querySelector('#walkAndTalk').innerText = convertedValue
+  document.querySelector('#header').innerText = convertedValue
 
 if (convertedValue >= 29){
   document.querySelector('html').style.backgroundImage = "url('https://media.giphy.com/media/e5kbmb3wX3J1S/giphy.gif')"

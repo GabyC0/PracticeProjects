@@ -3,14 +3,14 @@ document.querySelector('#inputButton').addEventListener('click', convert);
 function convert() {
   //get value from an input
   const inputValue = document.querySelector('#input').value;
-  const radioSelection = document.querySelector('#formInput').value;
+  //const radioSelection = document.querySelector('#formInput').value;
   //the math here
   const convertToCelsius = (inputValue - 32) * 5/9;
-  const convertToFahrenheit = (inputValue * 1.8) + 32;
+  //const convertToFahrenheit = (inputValue * 1.8) + 32;
 //display the value
   //console.log(convertedValue)
     document.querySelector('#header').innerText = convertToCelsius;
-    document.querySelector('#header').innerText = convertToFahrenheit;
+    //document.querySelector('#header').innerText = convertToFahrenheit;
   
   //if (document.querySelector('input[name="tempSelection"]:checked').value == 1){
     if (convertToCelsius >= 29){

@@ -12,7 +12,7 @@ function convert() {
     document.querySelector('#header').innerText = convertToCelsius;
     document.querySelector('#header').innerText = convertToFahrenheit;
   
-  if (document.querySelector('input[name="tempSelection"]:checked').value == 1){
+  //if (document.querySelector('input[name="tempSelection"]:checked').value == 1){
     if (convertToCelsius >= 29){
       document.querySelector('html').style.backgroundImage = "url('https://media.giphy.com/media/e5kbmb3wX3J1S/giphy.gif')";
     } else if (convertToCelsius < 29 && convertToCelsius >18){
@@ -20,14 +20,16 @@ function convert() {
     } else {
       document.querySelector('html').style.backgroundImage = "url('https://media.giphy.com/media/KFUx0Rtz7p0HTzbJ7x/giphy.gif')"
     } 
-  } else if (document.querySelector('input[name="tempSelection"]:checked').value == 2){
-    if (convertToFahrenheit >= 84){
-      document.querySelector('html').style.backgroundImage = "url('https://media.giphy.com/media/e5kbmb3wX3J1S/giphy.gif')";
-    } else if (convertToCelsius < 84 && convertToCelsius >64){
-      document.querySelector('html').style.backgroundImage = "url('https://media.giphy.com/media/xT8qBqfCcrD50Ffq7e/giphy.gif')"
-    } else {
-      document.querySelector('html').style.backgroundImage = "url('https://media.giphy.com/media/KFUx0Rtz7p0HTzbJ7x/giphy.gif')"
-    } 
   }
+
+//else if (document.querySelector('input[name="tempSelection"]:checked').value == 2){
+//     if (convertToFahrenheit >= 84){
+//       document.querySelector('html').style.backgroundImage = "url('https://media.giphy.com/media/e5kbmb3wX3J1S/giphy.gif')";
+//     } else if (convertToCelsius < 84 && convertToCelsius >64){
+//       document.querySelector('html').style.backgroundImage = "url('https://media.giphy.com/media/xT8qBqfCcrD50Ffq7e/giphy.gif')"
+//     } else {
+//       document.querySelector('html').style.backgroundImage = "url('https://media.giphy.com/media/KFUx0Rtz7p0HTzbJ7x/giphy.gif')"
+//     } 
+//}
 
 }

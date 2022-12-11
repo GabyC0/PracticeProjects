@@ -66,8 +66,9 @@ input{
 }
 
 select {
-    padding: 5px 10px;
-    border-radius:5px;
+  border-radius: 8px;
+  height: 2.75rem;
+  width: 12rem;
 }
 /******************************************
 /* ADDITIONAL STYLES

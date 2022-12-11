@@ -29,3 +29,6 @@ function convert() {
   } else if (optionVal === 2 && convertedToFahrenheit < 64) {
     fahrenheit, image3;
 }
+
+  //next steps
+  //refactor

@@ -28,6 +28,7 @@ function convert() {
     fahrenheit, image2;
   } else if (optionVal === 2 && convertedToFahrenheit < 64) {
     fahrenheit, image3;
+  }
 }
 
   //next steps

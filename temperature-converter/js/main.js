@@ -1,5 +1,5 @@
 //click event
-document.querySelector('#inputButton').addEventListener('click', convert);
+document.querySelector('#getInput').addEventListener('click', convert);
 //function to execute on click
 function convert() {
   //get value from an input

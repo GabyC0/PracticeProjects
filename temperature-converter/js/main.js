@@ -1,22 +1,18 @@
-function showInput(){
-  let checkedCelsius = document.getElementByName("celcius");
-  let showInput = document.getElementById('#input');
-  showInput.style.display = checkedCelsius.checked ? "block" : "none";
-}
-
-
-
 //click event
 document.querySelector('#inputButton').addEventListener('click', convert);
+//function to execute on click
 function convert() {
   //get value from an input
   const inputValue = document.querySelector('#input').value;
-  //const radioSelection = document.querySelector('#formInput').value;
-  //the math here
+  //get the value from dropdown options
+  const optionVal = Number(document.querySelector('#temperature').val;
+  //the math to convert
   const convertToCelsius = (inputValue - 32) * 5/9;
-  //const convertToFahrenheit = (inputValue * 1.8) + 32;
-//display the value
-  //console.log(convertedValue)
+  const convertToFahrenheit = (inputValue * 1.8) + 32;
+  //background images
+  const image1 = document.querySelector('html').style.backgroundImage = "url('https://media.giphy.com/media/e5kbmb3wX3J1S/giphy.gif')";
+  const image2 = document.querySelector('html').style.backgroundImage = "url('https://media.giphy.com/media/xT8qBqfCcrD50Ffq7e/giphy.gif')";
+  const image3 = document.querySelector('html').style.backgroundImage = "url('https://media.giphy.com/media/KFUx0Rtz7p0HTzbJ7x/giphy.gif')";
     //document.querySelector('#header').innerText = convertToCelsius;
     //document.querySelector('#header').innerText = convertToFahrenheit;
   

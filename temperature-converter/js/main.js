@@ -16,17 +16,17 @@ function convert() {
   const image2 = document.querySelector('html').style.backgroundImage = "url('https://media.giphy.com/media/xT8qBqfCcrD50Ffq7e/giphy.gif')";
   const image3 = document.querySelector('html').style.backgroundImage = "url('https://media.giphy.com/media/KFUx0Rtz7p0HTzbJ7x/giphy.gif')";
   //if statement to account for option & temp range -> render background img and conversion
-  if(optionVal === 1 && convertedToCelsius >= 29){
+  if(optionVal === 1 && convertToCelsius >= 29){
     celsius , image1;
-  } else if(optionVal === 1 && (convertedToCelsius < 29 && convertedToCelsius >= 18)) {
+  } else if(optionVal === 1 && (convertToCelsius < 29 && convertToCelsius >= 18)) {
     celsius, image2;
-  } else if (optionVal === 1 && convertedToCelsius < 18) {
+  } else if (optionVal === 1 && convertToCelsius < 18) {
     celsius, image3;
-  }else if (optionVal === 2 && convertedToFahrenheit >= 84) {
+  }else if (optionVal === 2 && convertToFahrenheit >= 84) {
     fahrenheit, image1;
-  } else if (optionVal === 2 && (convertedToFahrenheit < 84 && convertedToFahrenheit >= 64)) {
+  } else if (optionVal === 2 && (convertToFahrenheit < 84 && convertToFahrenheit >= 64)) {
     fahrenheit, image2;
-  } else if (optionVal === 2 && convertedToFahrenheit < 64) {
+  } else if (optionVal === 2 && convertToFahrenheit < 64) {
     fahrenheit, image3;
   }
 }

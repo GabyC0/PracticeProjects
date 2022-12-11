@@ -29,9 +29,14 @@ body {
 section {
   padding-top: 8rem;
 }
-h1 {
+
+label {
   color: white;
-  font
+  font-size: large;
+}
+
+h3 {
+  color: white;
 }
 /******************************************
 /* ADDITIONAL STYLES

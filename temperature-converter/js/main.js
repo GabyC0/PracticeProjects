@@ -13,7 +13,6 @@ function convert() {
   //temp ranges to change background and display temp after being converted
   if(optionVal === 1 && convertToCelsius >= 29){
     document.querySelector('#header').innerText = convertToCelsius + " Celsius";
-    console.log(convertToCelsius);
     document.querySelector('html').style.backgroundImage = "url('https://media.giphy.com/media/e5kbmb3wX3J1S/giphy.gif')";
   } else if(optionVal === 1 && (convertToCelsius < 29 && convertToCelsius >= 18)) {
     document.querySelector('#header').innerText = convertToCelsius + " Celsius";
